@@ -83,6 +83,8 @@ body {
 .big-dream-content {
     display: flex;
     margin: 5em 0;
+    background: url(../img/developer-portfolio-master/images/dream-bg.png) no-repeat;
+    background-position: bottom right;
 }
 
 .big-dream-left {
@@ -109,10 +111,13 @@ body {
 }
 
 .big-dream-right-content h2 {
-	color: #353535;
+    color: #353535;
+    margin: 2em 0;
 }
 
-.big-dream-right-content p {}
+.big-dream-right-content p {
+    padding-right: 6em;
+}
 
 .big-dream-right-content a {}
 
