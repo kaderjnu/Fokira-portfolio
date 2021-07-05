@@ -50,19 +50,17 @@ body {
     margin-left: 5.5em;
 }
 
-.welcome-left-text a {
-    display: block;
+.welcome-left-text a,
+.big-dream-right-content a {
+    display: inline-block;
     margin: 2em 6em;
     text-decoration: none;
     text-align: center;
-    width: 127px;
-    height: 41px;
-    line-height: 40px;
     color: white;
     font-weight: bold;
     border-radius: 5px;
     background: linear-gradient(salmon, purple);
-
+    padding: .5em 2em;
 }
 
 .welcome-right-img {
@@ -80,4 +78,42 @@ body {
 
 /* Css of Welcome Section Ends */
 /* Big dream section start */
+.big-dream-section {}
+
+.big-dream-content {
+    display: flex;
+    margin: 5em 0;
+}
+
+.big-dream-left {
+    width: 50%;
+}
+
+.big-dream-img {}
+
+.big-dream-img img {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.big-dream-right {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.big-dream-right-content {}
+
+.big-dream-right-content h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.big-dream-right-content h2 {
+	color: #353535;
+}
+
+.big-dream-right-content p {}
+
+.big-dream-right-content a {}
+
 /* Big dream section end */
