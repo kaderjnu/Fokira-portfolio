@@ -1,0 +1,82 @@
+/* Typography */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Css of Welcome Section Starts */
+.welcome-section {
+    background: url(../img/developer-portfolio-master/images/top-banner.png) no-repeat;
+}
+
+.welcome-content {
+    display: flex;
+}
+
+.welcome-left {
+    width: 45%;
+}
+
+.welcome-left-text {}
+
+.welcome-left-text h1 {
+    text-align: center;
+    font-size: 3.4em;
+    margin-top: 1em;
+
+}
+
+.welcome-left-text h2 {
+    margin: 2em 90px;
+    font-size: 2em;
+}
+
+.orange {
+    color: #FFA500;
+}
+
+.welcome-left-text h3 {
+    margin-left: 5.2em;
+}
+
+.welcome-left-text p {
+    margin-top: 1em;
+    margin-left: 5.5em;
+}
+
+.welcome-left-text a {
+    display: block;
+    margin: 2em 6em;
+    text-decoration: none;
+    /* background: red; */
+    text-align: center;
+    width: 127px;
+    height: 41px;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background: linear-gradient(salmon, purple);
+
+}
+
+.welcome-right-img {
+    width: 76%;
+    margin-left: 15%;
+}
+
+.welcome-right-img {}
+
+.welcome-right-img img {
+    width: 100%;
+}
+
+.welcome-section {}
+
+/* Css of Welcome Section Ends */
